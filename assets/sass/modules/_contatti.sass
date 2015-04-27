@@ -1,26 +1,23 @@
 $gutter: 10px
 
 .canvas
-	height: 80vh
+	height: 40vh
 .container
 	@include flexbox()
 	flex-direction: row
-	justify-content: space-between
+	justify-content: center
 	flex-wrap: wrap
-	// height: 200px
-	// max-width: $xl
-	// margin: 0 auto
-	margin: -5px
-	padding: 20px
 .item
-	// @include flex(1 0 100%)
+	@include flex(1 0 90%)
 	border: 1px solid black
 	min-width: 320px
-	max-width: $m
-	height: 100px
 	margin: 5px
+	min-height: 100px
 	+breakpoint($m)
-		@include flex(1 0 50%)
+		@include flex(1 0 45%)
 	+breakpoint($l)
-		@include flex(1 0 30%)
-	
+		@include flex(1 1 30%)
+		max-width: 30%
+
+.item__img
+	width: 100%
