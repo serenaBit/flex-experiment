@@ -1,0 +1,35 @@
+{% block content %}
+<table class="newscontainer">
+	<thead class="newsheader">
+		<tr>
+			<td class="newsheader__cell" rowspan="2">title</td>
+		</tr>
+	</thead>
+	<tbody class="newsbody">
+		<tr>
+			<td class="newsbody__cell">banner</td>
+		</tr>
+		<tr>
+			<td class="newsbody__cell">sidebar</td>
+			<td class="newsbody__cell">
+				<table>
+					<tr>
+						<td class="newsbody__cell">contenuto1</td>
+						<td class="newsbody__cell">contenuto2</td>
+					</tr>
+					<tr>
+						<td class="newsbody__cell">contenuto3</td>
+						<td class="newsbody__cell">contenuti4</td>
+					</tr>
+				</table>
+			</td>
+		</tr>	
+	</tbody>
+	<tfoot class="newsfooter">
+		<tr>
+			<td class="newsfooter__cell" rowspan="2">footer</td>
+		</tr>
+	</tfoot>
+
+<table>
+{% endblock %}
