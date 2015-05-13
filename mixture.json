@@ -2,22 +2,21 @@
   "convertHtml": {
     "relativePaths": false
   },
+  "customRubyPath": null,
   "debug": false,
-  "domain": null,
+  "followLeader": true,
   "lintScripts": false,
-  "modelSource": null,
   "preprocessorLocations": [
     "assets"
   ],
   "preprocessorScriptOutput": "assets/scripts",
   "preprocessorStyleOutput": "assets/css",
   "projectDescription": "A simple empty boilerplate for a fresh start",
-  "projectName": "sass_experiment",
+  "projectName": "angular_experiment",
   "publishedId": null,
-  "serverHostname": null,
+  "serverHostname": "10.18.95.102",
   "serverPort": null,
-  "simpleModePartnerServer": null,
-  "templateDefaultLayout": "layout",
+  "templateDefaultLayout": "",
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "mixture",
