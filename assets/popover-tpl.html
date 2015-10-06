@@ -1,0 +1,11 @@
+<span 
+	ng-mouseover="isOpen = true" 
+	ng-mouseleave="isOpen = false" 
+	class="popover-text">
+	{{text}}
+</span>
+<span 
+	class="popover-tooltip"
+	ng-show="isOpen" >
+	{{tooltip}}
+</span>	

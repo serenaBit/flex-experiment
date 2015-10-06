@@ -1,0 +1,20 @@
+[
+	{
+		"name" : "Stefano",
+		"surname" : "Pippo",
+		"birth" : "1977-11-17",
+		"gender" : "m"
+	},
+	{
+		"name" : "Thomas",
+		"surname" : "Cecconi",
+		"birth" : "1982-11-22",
+		"gender" : "m"
+	},
+	{
+		"name" : "Serena",
+		"surname" : "Beddini",
+		"birth" : "1990-10-08",
+		"gender" : "f"
+	}
+]
